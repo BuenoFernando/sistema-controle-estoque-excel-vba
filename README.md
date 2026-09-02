@@ -1,97 +1,100 @@
-# Olá! 👋 Eu sou Fernando Bueno
+# 📦 Sistema de Controle de Estoque — Excel/VBA
 
-### Engenheiro de Computação | Analista de Sistemas | Analista de TI
+Sistema de controle de estoque desenvolvido em **Microsoft Excel e VBA**, com o objetivo de automatizar e organizar processos de cadastro, controle e movimentação de produtos.
 
-Sou **Engenheiro de Computação**, formado em 2020, atualmente cursando **Pós-Graduação em Engenharia de Software**.
-
-Estou em transição profissional para a área de Tecnologia, com interesse principalmente em **Análise de Sistemas, Análise de TI, Automação, Dados e Desenvolvimento de Software**.
-
-Tenho conhecimentos em programação, banco de dados, análise de sistemas e desenvolvimento de soluções utilizando **Excel, VBA, Power BI, Python e SQL**.
+O projeto foi desenvolvido como uma solução prática para gerenciamento de estoque, utilizando recursos de programação em VBA, formulários e estruturas de dados dentro do Excel.
 
 ---
 
-## 💻 Tecnologias e conhecimentos
+## 🎯 Objetivo
 
-* 🐍 **Python**
-* 🗄️ **SQL / MySQL**
-* 📊 **Power BI**
-* 📈 **Microsoft Excel / Excel Avançado**
-* ⚙️ **VBA**
-* 💻 **C / C# / Visual Basic**
-* 🧩 **Análise de Sistemas**
-* 🔢 **Algoritmos e Lógica de Programação**
-* 🏗️ **Engenharia de Software**
-* 🔄 **Automação de Processos**
-* 🗃️ **Banco de Dados**
+Criar uma solução para facilitar o gerenciamento de produtos e proporcionar maior controle sobre as movimentações de estoque, reduzindo tarefas manuais e organizando as informações em um único sistema.
 
 ---
 
-## 🚀 Projeto
+## ⚙️ Principais funcionalidades
 
-### 📦 Sistema de Controle de Estoque — Excel/VBA
-
-Sistema desenvolvido em **Microsoft Excel e VBA** para automatizar e organizar processos de cadastro, controle de estoque e movimentação de produtos.
-
-**Principais funcionalidades:**
-
-* Cadastro e gerenciamento de produtos
-* Cadastro de categorias
-* Cadastro de marcas
-* Cadastro de fornecedores
-* Controle de estoque atual e disponível
-* Registro de entradas
-* Registro de saídas
-* Registro de ajustes de estoque
-* Histórico de movimentações
-* Geração automática de códigos de produtos
-* Controle de usuários e permissões
-* Formulários (UserForms)
-* Automação de processos utilizando VBA
-* Organização de informações em tabelas estruturadas
-* Recursos para facilitar o acompanhamento do estoque
-
-**Tecnologias utilizadas:**
-
-`Microsoft Excel` • `VBA` • `UserForms` • `Lógica de Programação` • `Banco de Dados`
+* 📦 Cadastro de produtos
+* 🗂️ Cadastro de categorias
+* 🏷️ Cadastro de marcas
+* 🏢 Cadastro de fornecedores
+* 📊 Controle de estoque atual
+* 📈 Controle de estoque disponível
+* ➕ Registro de entradas
+* ➖ Registro de saídas
+* 🔄 Ajustes de estoque
+* 📋 Histórico de movimentações
+* 🔢 Geração automática de códigos de produtos
+* 👤 Controle de usuários
+* 🔐 Controle de permissões
+* 🖥️ Interface utilizando UserForms
+* ⚙️ Automação de processos utilizando VBA
+* 🔎 Consulta e organização das informações
 
 ---
 
-## 🎓 Formação
+## 🗃️ Estrutura do sistema
 
-**Engenharia de Computação**
-Concluído em 2020
+O sistema utiliza diferentes áreas para organizar os dados e funcionalidades:
 
-**Pós-Graduação em Engenharia de Software**
-Faculdade FAVENI — Cursando
+### Principais módulos e áreas
 
----
-
-## 📚 Formação complementar
-
-* Análise Estruturada de Sistemas — Fundação Bradesco
-* Elementos de Programação — Brasil Mais TI
-* Algoritmos — Brasil Mais TI
-* SQL — Softblue
-* Lógica de Programação — Softblue
-* Excel Avançado — Fundação Bradesco
-* Python para Análise de Dados — Data Science Academy
-* Microsoft Power BI para Data Science — Data Science Academy
-
----
-
-## 🎯 Objetivo profissional
-
-Busco oportunidades na área de Tecnologia, especialmente como:
-
-**Analista de Sistemas | Analista de TI | Analista de Processos | Dados e Automação | Desenvolvimento de Software**
-
-Meu objetivo é aplicar minha formação em Engenharia de Computação, desenvolver soluções práticas e continuar evoluindo tecnicamente por meio de projetos reais.
+* **Cadastro**
+* **Estoque Atual**
+* **Movimentações**
+* **Usuários**
+* **Permissões**
+* **Produtos**
+* **Categorias**
+* **Marcas**
+* **Fornecedores**
+* **Entradas**
+* **Saídas**
+* **Estoque**
+* **Movimentos**
 
 ---
 
-## 📫 Contato
+## 🧩 Tecnologias utilizadas
 
-Estou aberto a oportunidades, projetos e conexões profissionais na área de Tecnologia.
+* **Microsoft Excel**
+* **VBA (Visual Basic for Applications)**
+* **UserForms**
+* **Lógica de programação**
+* **Estruturas de dados**
+* **Automação de processos**
 
-**LinkedIn:** fernando-cesar-bueno
+---
+
+## 🚀 Funcionalidades em desenvolvimento
+
+O projeto continua sendo aprimorado com novas funcionalidades, melhorias de usabilidade e otimizações de desempenho.
+
+Entre os pontos de evolução estão:
+
+* Melhorias na interface
+* Otimização do desempenho
+* Aprimoramento do controle de movimentações
+* Melhorias nos relatórios
+* Recursos adicionais de segurança e permissões
+* Evolução da experiência do usuário
+
+---
+
+## 👨‍💻 Autor
+
+**Fernando Bueno**
+
+Engenheiro de Computação | Analista de Sistemas | Analista de TI
+
+Atualmente cursando Pós-Graduação em Engenharia de Software.
+
+---
+
+## 🎓 Objetivo profissional
+
+Este projeto faz parte do meu portfólio de desenvolvimento e demonstra a aplicação prática de conhecimentos em **programação, automação, análise de sistemas e gerenciamento de informações**.
+
+Meu objetivo é continuar desenvolvendo projetos práticos e realizar minha transição profissional para a área de Tecnologia.
+
 
