@@ -16,8 +16,6 @@ Criar uma solução para facilitar o gerenciamento de produtos e proporcionar ma
 
 * 📦 Cadastro de produtos
 * 🗂️ Cadastro de categorias
-* 🏷️ Cadastro de marcas
-* 🏢 Cadastro de fornecedores
 * 📊 Controle de estoque atual
 * 📈 Controle de estoque disponível
 * ➕ Registro de entradas
@@ -25,8 +23,6 @@ Criar uma solução para facilitar o gerenciamento de produtos e proporcionar ma
 * 🔄 Ajustes de estoque
 * 📋 Histórico de movimentações
 * 🔢 Geração automática de códigos de produtos
-* 👤 Controle de usuários
-* 🔐 Controle de permissões
 * 🖥️ Interface utilizando UserForms
 * ⚙️ Automação de processos utilizando VBA
 * 🔎 Consulta e organização das informações
@@ -42,15 +38,12 @@ O sistema utiliza diferentes áreas para organizar os dados e funcionalidades:
 * **Cadastro**
 * **Estoque Atual**
 * **Movimentações**
-* **Usuários**
-* **Permissões**
 * **Produtos**
 * **Categorias**
-* **Marcas**
-* **Fornecedores**
 * **Entradas**
 * **Saídas**
 * **Estoque**
+* **Ajuste de Estoque**
 * **Movimentos**
 
 ---
