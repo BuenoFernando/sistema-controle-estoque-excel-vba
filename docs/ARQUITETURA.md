@@ -1,162 +1,119 @@
 # 🏗️ Arquitetura do Sistema
 
-## 📌 Visão geral
+O sistema foi desenvolvido em **Microsoft Excel com VBA**, utilizando UserForms para a interface e tabelas estruturadas para organização e armazenamento dos dados.
 
-O **Sistema de Controle de Estoque** foi desenvolvido utilizando **Microsoft Excel e VBA**, combinando interface gráfica através de UserForms, tabelas estruturadas e rotinas de automação.
-
-A solução foi projetada para organizar o cadastro de produtos e controlar as principais operações relacionadas ao estoque, como entradas, saídas, ajustes e consulta do histórico de movimentações.
+A estrutura foi organizada de forma a separar as principais responsabilidades do sistema, facilitando sua manutenção e evolução.
 
 ---
 
-## 🧱 Estrutura do sistema
+## 🖥️ Camada de interface
 
-O sistema é organizado em diferentes áreas responsáveis por funções específicas.
+A interação com o usuário é realizada principalmente através de **UserForms** desenvolvidos em VBA.
 
-### Interface
-
-A interação com o usuário é realizada principalmente através de **UserForms**, permitindo executar operações sem a necessidade de manipular diretamente as tabelas de dados.
-
-Principais telas:
+Entre as principais interfaces estão:
 
 * Menu principal
-* Cadastro de mercadorias
-* Edição de produtos
-* Consulta de estoque
+* Cadastro de produtos
+* Cadastro de categorias
+* Cadastro de marcas
+* Cadastro de fornecedores
 * Entrada de estoque
 * Saída de estoque
-* Acerto de estoque
-* Histórico de movimentos
+* Ajuste de estoque
+* Consulta de estoque
+* Histórico de movimentações
 
 ---
 
-## 🗄️ Estrutura de dados
+## ⚙️ Camada de regras e processamento
 
-O projeto utiliza tabelas estruturadas para armazenar e organizar as informações.
+A lógica do sistema é executada através de procedimentos, funções e módulos VBA.
+
+Essa camada é responsável por:
+
+* Validação dos dados;
+* Geração automática de códigos;
+* Registro de entradas;
+* Registro de saídas;
+* Ajustes de estoque;
+* Atualização dos saldos;
+* Registro do histórico de movimentações;
+* Controle de estoque disponível;
+* Automação de tarefas;
+* Rotinas de backup.
+
+---
+
+## 🗃️ Camada de dados
+
+As informações são organizadas em tabelas estruturadas dentro do arquivo Excel.
 
 Entre as principais estruturas estão:
 
 * `BD_Produtos`
 * `BD_Categorias`
-* `BD_Marcas`
-* `BD_Fornecedores`
 * `BD_Entradas`
 * `BD_Saidas`
 * `BD_Estoque`
 * `BD_Movimentos`
 
-A separação das informações em diferentes estruturas facilita a organização dos dados e a manutenção do sistema.
-
----
-
-## ⚙️ Camada de programação
-
-A lógica do sistema é implementada em **VBA (Visual Basic for Applications)**.
-
-As rotinas VBA são responsáveis por executar tarefas como:
-
-* Cadastro e edição de produtos
-* Geração automática de códigos
-* Registro de entradas
-* Registro de saídas
-* Ajustes de estoque
-* Atualização dos saldos
-* Registro das movimentações
-* Consultas e filtros
-* Automatização de processos
+Essas estruturas armazenam os dados utilizados pelas diferentes funcionalidades do sistema.
 
 ---
 
 ## 🔄 Fluxo de movimentação
 
-As movimentações de estoque seguem uma lógica centralizada para manter o histórico das operações.
+O controle de estoque considera diferentes tipos de movimentação:
 
-### Entrada
+**Entrada**
 
-```text
-Produto
-   ↓
-Registro da entrada
-   ↓
-Atualização do estoque
-   ↓
-Registro da movimentação
-```
+Produto → Registro da entrada → Atualização do estoque → Registro da movimentação
 
-### Saída
+**Saída**
 
-```text
-Produto
-   ↓
-Registro da saída
-   ↓
-Atualização do estoque
-   ↓
-Registro da movimentação
-```
+Produto → Registro da saída → Atualização do estoque → Registro da movimentação
 
-### Ajuste
+**Ajuste**
 
-```text
-Produto
-   ↓
-Acerto de estoque
-   ↓
-Atualização do saldo
-   ↓
-Registro da movimentação
-```
+Produto → Ajuste de quantidade → Atualização do estoque → Registro da movimentação
 
-Esse modelo permite manter um histórico das operações realizadas sobre o estoque.
+O histórico permite acompanhar as operações realizadas no sistema.
 
 ---
 
-## 🔢 Geração de código de produto
+## 💾 Backup automático
 
-O sistema possui uma rotina VBA responsável pela **geração automática do código dos produtos**, reduzindo a necessidade de criação manual dos identificadores.
+O sistema possui uma rotina de backup automático executada durante o encerramento.
 
----
+Antes de criar um novo backup, o sistema verifica se já existe um backup realizado na mesma data.
 
-## 📊 Controle de estoque
-
-O sistema trabalha com informações relacionadas ao estoque atual e ao estoque disponível.
-
-O estoque disponível considera também a quantidade reservada:
-
-```text
-Estoque disponível =
-Estoque atual - Estoque reservado
-```
-
-Essa abordagem permite diferenciar a quantidade fisicamente disponível da quantidade que já está comprometida.
+A rotina mantém no máximo **15 backups**, removendo automaticamente os arquivos mais antigos quando o limite é atingido.
 
 ---
 
-## 🎯 Objetivo técnico
+## 🔐 Controle e organização
 
-Além de solucionar um problema prático de controle de estoque, o projeto foi desenvolvido como uma aplicação prática de conhecimentos relacionados a:
-
-* Programação
-* Lógica de programação
-* VBA
-* Estruturação de dados
-* Automação
-* Desenvolvimento de interfaces
-* Análise de sistemas
-* Organização de processos
-
-O projeto representa uma aplicação prática de conceitos de desenvolvimento de software utilizando uma ferramenta amplamente utilizada no ambiente corporativo.
+O projeto também possui estruturas relacionadas a usuários e permissões, permitindo organizar o acesso às funcionalidades do sistema.
 
 ---
 
-## 🚀 Possíveis evoluções
+## 🧩 Tecnologias
 
-O sistema pode continuar evoluindo através da implementação de novos recursos, como:
+* Microsoft Excel
+* VBA (Visual Basic for Applications)
+* UserForms
+* Tabelas estruturadas
+* Automação de processos
 
-* Relatórios gerenciais
-* Dashboard de indicadores
-* Melhorias de desempenho
-* Controle de usuários e permissões
-* Backup automatizado
-* Integração com banco de dados
-* Migração futura para uma aplicação web ou desktop
-* Integração com outras ferramentas e sistemas
+---
+
+## 🎯 Objetivo da arquitetura
+
+A organização do projeto busca facilitar:
+
+* Manutenção do sistema;
+* Identificação das responsabilidades de cada componente;
+* Evolução das funcionalidades;
+* Organização dos dados;
+* Redução de processos manuais;
+* Rastreabilidade das movimentações.
