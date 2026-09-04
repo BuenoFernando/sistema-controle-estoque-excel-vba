@@ -62,7 +62,6 @@ As rotinas VBA são responsáveis por executar tarefas como:
 * Atualização dos saldos
 * Registro das movimentações
 * Consultas e filtros
-* Controle de usuários e permissões
 * Automatização de processos
 
 ---
