@@ -98,6 +98,17 @@ O sistema utiliza diferentes áreas para organizar os dados e funcionalidades.
 
 ---
 
+## ▶️ Como executar
+
+1. Faça o download do arquivo `.xlsm` disponível neste repositório.
+2. Abra o arquivo utilizando o **Microsoft Excel para Windows**.
+3. Caso o Excel solicite autorização, habilite as **macros/conteúdo** para permitir a execução do sistema.
+4. Após a abertura, utilize o **Menu Principal** para acessar as funcionalidades do sistema.
+
+> **Observação:** este projeto utiliza VBA e, por isso, requer o Microsoft Excel para Windows com suporte a macros habilitado.
+  
+---
+
 ## 💻 Competências técnicas demonstradas
 
 Este projeto demonstra a aplicação prática de conhecimentos relacionados ao desenvolvimento e automação de sistemas, incluindo:
