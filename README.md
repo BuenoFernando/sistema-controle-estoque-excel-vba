@@ -91,9 +91,65 @@ O sistema utiliza diferentes áreas para organizar os dados e funcionalidades.
 * **Microsoft Excel**
 * **VBA (Visual Basic for Applications)**
 * **UserForms**
+* **Tabelas estruturadas**
 * **Lógica de programação**
-* **Estruturas de dados**
 * **Automação de processos**
+* **Manipulação e organização de dados**
+
+---
+
+## 💻 Competências técnicas demonstradas
+
+Este projeto demonstra a aplicação prática de conhecimentos relacionados ao desenvolvimento e automação de sistemas, incluindo:
+
+### 🔹 Programação
+
+* Desenvolvimento de rotinas em VBA
+* Criação de funções e procedimentos
+* Estruturas condicionais
+* Manipulação de variáveis e dados
+* Automação de tarefas
+
+### 🔹 Desenvolvimento de sistemas
+
+* Criação de interfaces utilizando UserForms
+* Implementação de regras de negócio
+* Validação de informações
+* Organização da lógica da aplicação
+* Separação entre interface e estruturas de dados
+
+### 🔹 Gestão de dados
+
+* Organização de tabelas
+* Cadastro e consulta de informações
+* Controle de produtos
+* Registro de movimentações
+* Atualização de saldos de estoque
+* Histórico das operações
+
+### 🔹 Automação de processos
+
+O sistema utiliza VBA para automatizar operações que normalmente seriam realizadas manualmente, proporcionando maior padronização e controle dos processos.
+
+### 🔹 Análise de sistemas
+
+O desenvolvimento do projeto envolve a identificação de necessidades, definição de regras de negócio, organização das informações e implementação de uma solução para controle de estoque.
+
+---
+
+## 📚 Conhecimentos aplicados
+
+Durante o desenvolvimento deste projeto foram aplicados conceitos de:
+
+* Lógica de programação
+* Programação orientada a eventos
+* Estruturação de dados
+* Regras de negócio
+* Automação
+* Interface de usuário
+* Controle de processos
+* Rastreabilidade de operações
+* Organização e manutenção de sistemas
 
 ---
 
