@@ -171,16 +171,36 @@ Durante o desenvolvimento deste projeto foram aplicados conceitos de:
 
 ## 🚀 Funcionalidades em desenvolvimento
 
-O projeto continua sendo aprimorado com novas funcionalidades, melhorias de usabilidade e otimizações de desempenho.
+## 🚀 Status do projeto
 
-Entre os pontos de evolução estão:
+**Em desenvolvimento contínuo.**
 
-* Melhorias na interface
-* Otimização do desempenho
-* Aprimoramento do controle de movimentações
-* Melhorias nos relatórios
-* Recursos adicionais de segurança e permissões
-* Evolução da experiência do usuário
+O sistema já possui diversas funcionalidades implementadas e está sendo aprimorado com novas funcionalidades, melhorias de usabilidade, otimizações de desempenho e evolução da estrutura do projeto.
+
+### ✅ Funcionalidades implementadas
+
+* Cadastro e edição de produtos
+* Cadastro de categorias
+* Consulta de estoque
+* Controle de entradas
+* Controle de saídas
+* Ajustes de estoque
+* Histórico de movimentações
+* Geração automática de códigos
+* Controle de estoque disponível
+* Backup automático
+* Retenção dos últimos 15 backups
+* Interface com UserForms
+* Automação através de VBA
+
+### 🔄 Em evolução
+
+* Melhorias de interface e experiência do usuário
+* Otimização de desempenho
+* Aprimoramento dos relatórios
+* controle de usuários e permissões
+* Novos recursos de automação
+
 
 ---
 
