@@ -71,6 +71,33 @@ Essa funcionalidade reduz a necessidade de controle manual dos identificadores e
 
 ---
 
+## 💾 Backup automático
+
+O sistema possui um mecanismo de backup automático para aumentar a segurança das informações armazenadas na aplicação.
+
+### Funcionamento
+
+Ao sair do sistema, o processo de backup é executado automaticamente.
+
+Antes de criar um novo arquivo, o sistema verifica se já existe um backup realizado na mesma data.
+
+* Se **não existir backup do dia**, um novo backup é criado.
+* Se **já existir um backup do dia**, um novo backup não é criado.
+* O sistema mantém no máximo **15 backups**.
+* Ao atingir esse limite, os backups mais antigos são removidos automaticamente para liberar espaço e manter somente os backups mais recentes.
+
+### Benefícios
+
+Esse mecanismo proporciona:
+
+* Maior segurança das informações;
+* Redução do risco de perda de dados;
+* Backup automático sem necessidade de intervenção do usuário;
+* Controle da quantidade de arquivos armazenados;
+* Manutenção dos backups mais recentes.
+
+---
+
 ## 🖥️ UserForms
 
 A interface do sistema utiliza **UserForms do VBA** para facilitar a interação do usuário.
