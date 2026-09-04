@@ -9,46 +9,17 @@ Entre as informações utilizadas estão:
 * Código do produto
 * Descrição
 * Categoria
-* Marca
-* Fornecedor
 * Quantidade em estoque
-* Quantidade reservada
 * Estoque disponível
 * Informações relacionadas ao produto
 
-O código do produto pode ser gerado automaticamente pelo sistema.
-
----
-
-## 🗂️ Cadastro de categorias
-
-Permite cadastrar e organizar as categorias utilizadas na classificação dos produtos.
-
-Essa estrutura facilita a organização e a consulta das mercadorias.
-
----
-
-## 🏷️ Cadastro de marcas
-
-O sistema permite cadastrar as marcas dos produtos e associá-las aos respectivos itens.
-
----
-
-## 🚚 Cadastro de fornecedores
-
-Os fornecedores podem ser cadastrados e posteriormente relacionados aos produtos e às operações de entrada.
+O código do produto é gerado automaticamente pelo sistema.
 
 ---
 
 ## 📊 Consulta de estoque
 
 A consulta de estoque permite visualizar as informações atuais dos produtos e acompanhar suas quantidades.
-
-O sistema diferencia:
-
-* Estoque atual
-* Estoque reservado
-* Estoque disponível
 
 ---
 
@@ -130,14 +101,6 @@ Entre as automações implementadas estão:
 * Pesquisas e filtros
 * Atualização de informações na interface
 * Validação de operações
-
----
-
-## 🔐 Controle de usuários e permissões
-
-O projeto possui estruturas destinadas ao gerenciamento de usuários e permissões.
-
-Essa estrutura permite controlar o acesso às funcionalidades e serve como base para futuras evoluções do sistema de segurança.
 
 ---
 
