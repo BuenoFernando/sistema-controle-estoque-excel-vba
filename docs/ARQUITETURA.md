@@ -15,8 +15,6 @@ Entre as principais interfaces estão:
 * Menu principal
 * Cadastro de produtos
 * Cadastro de categorias
-* Cadastro de marcas
-* Cadastro de fornecedores
 * Entrada de estoque
 * Saída de estoque
 * Ajuste de estoque
