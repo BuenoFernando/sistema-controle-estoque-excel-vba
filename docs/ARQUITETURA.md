@@ -87,11 +87,6 @@ Antes de criar um novo backup, o sistema verifica se já existe um backup realiz
 
 A rotina mantém no máximo **15 backups**, removendo automaticamente os arquivos mais antigos quando o limite é atingido.
 
----
-
-## 🔐 Controle e organização
-
-O projeto também possui estruturas relacionadas a usuários e permissões, permitindo organizar o acesso às funcionalidades do sistema.
 
 ---
 
