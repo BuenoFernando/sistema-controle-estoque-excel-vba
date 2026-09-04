@@ -29,9 +29,47 @@ Criar uma solução para facilitar o gerenciamento de produtos e proporcionar ma
 
 ---
 
+## 🖥️ Demonstração do sistema
+
+Abaixo estão algumas das principais telas e funcionalidades do sistema.
+
+### 🏠 Menu Principal
+
+![Menu Principal](imagens/menu.JPG)
+
+### 📦 Cadastro de Mercadorias
+
+![Cadastro de Mercadorias](imagens/cadastro%20mercadorias.JPG)
+
+### ✏️ Editar Produto
+
+![Editar Produto](imagens/editar%20produto.JPG)
+
+### 📊 Consulta de Estoque
+
+![Consulta de Estoque](imagens/consulta%20estoque.JPG)
+
+### 📥 Entrada de Estoque
+
+![Entrada de Estoque](imagens/entrada.JPG)
+
+### 📤 Saída de Estoque
+
+![Saída de Estoque](imagens/saida.JPG)
+
+### 🔧 Acerto de Estoque
+
+![Acerto de Estoque](imagens/acerto%20de%20estoque.JPG)
+
+### 📋 Histórico de Movimentos
+
+![Histórico de Movimentos](imagens/historico%20movimentos.JPG)
+
+---
+
 ## 🗃️ Estrutura do sistema
 
-O sistema utiliza diferentes áreas para organizar os dados e funcionalidades:
+O sistema utiliza diferentes áreas para organizar os dados e funcionalidades.
 
 ### Principais módulos e áreas
 
