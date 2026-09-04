@@ -43,7 +43,6 @@ Entre as principais estruturas estão:
 * `BD_Saidas`
 * `BD_Estoque`
 * `BD_Movimentos`
-* `BD_Usuarios`
 
 A separação das informações em diferentes estruturas facilita a organização dos dados e a manutenção do sistema.
 
