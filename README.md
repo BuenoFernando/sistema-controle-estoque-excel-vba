@@ -26,6 +26,11 @@ Criar uma solução para facilitar o gerenciamento de produtos e proporcionar ma
 * 🖥️ Interface utilizando UserForms
 * ⚙️ Automação de processos utilizando VBA
 * 🔎 Consulta e organização das informações
+* 💾 Backup automático do sistema
+* 📅 Controle de backup diário
+* 🗂️ Retenção dos últimos 15 backups
+* 🧹 Exclusão automática dos backups mais antigos
+
 
 ---
 
