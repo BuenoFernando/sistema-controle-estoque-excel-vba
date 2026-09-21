@@ -115,7 +115,6 @@ Entradas
 Saídas
 Movimentos
 Estoque
-Usuários
 ```
 
 As movimentações são utilizadas para manter o controle dos saldos de estoque e registrar o histórico das operações realizadas.
