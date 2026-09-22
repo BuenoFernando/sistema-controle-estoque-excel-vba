@@ -113,8 +113,8 @@ O sistema mantém o registro das movimentações realizadas, permitindo acompanh
 
 * Entradas.
 * Saídas.
-* Ajuste.
-* Usuário.
+* Ajustes.
+* Usuários.
 
 As movimentações contribuem para a rastreabilidade das alterações realizadas no estoque.
 
@@ -131,16 +131,16 @@ O sistema possui uma rotina automatizada de backup que:
 
 ## 💻 Tecnologias Utilizadas
 
-| Tecnologia                  | Utilização                                           |
-| --------------------------- | ---------------------------------------------------- |
-| 📗 **Microsoft Excel**      | Plataforma utilizada para desenvolvimento do sistema |
-| 💻 **VBA**                  | Programação, automação e regras de negócio           |
-| 🖥️ **UserForms**           | Desenvolvimento das interfaces gráficas              |
-| 📊 **Tabelas estruturadas** | Organização e armazenamento dos dados                |
-| 🔐 **Controle de acesso**   | Autenticação e gerenciamento de permissões           |
-| 💾 **Sistema de arquivos**  | Rotina de backup automático                          |
-| 🌿 **Git**                  | Controle de versão                                   |
-| 🐙 **GitHub**               | Hospedagem e publicação do projeto                   |
+| Tecnologia                  | Utilização                                                   |
+| --------------------------- | ------------------------------------------------------------ |
+| 📗 **Microsoft Excel**      | Plataforma utilizada para desenvolvimento do sistema         |
+| 💻 **VBA**                  | Programação, automação e implementação das regras de negócio |
+| 🖥️ **UserForms**           | Desenvolvimento das interfaces gráficas                      |
+| 📊 **Tabelas estruturadas** | Organização e armazenamento dos dados                        |
+| 🔐 **Controle de acesso**   | Autenticação e gerenciamento de permissões                   |
+| 💾 **Sistema de arquivos**  | Rotina de backup automático                                  |
+| 🌿 **Git**                  | Controle de versão                                           |
+| 🐙 **GitHub**               | Hospedagem e publicação do projeto                           |
 
 ---
 
@@ -191,17 +191,18 @@ sistema-controle-estoque-excel-vba/
 ├── Sistema_Controle_Estoque.xlsm
 │
 ├── imagens/
-│   ├── menu.JPG
-│   ├── login.JPG
-│   ├── usuarios.JPG
-│   ├── alterar usuario.JPG
-│   ├── cadastro mercadorias.JPG
-│   ├── editar produto.JPG
-│   ├── consulta estoque.JPG
-│   ├── entrada.JPG
-│   ├── saida.JPG
 │   ├── acerto de estoque.JPG
-│   └── historico movimentos.JPG
+│   ├── alteracao-usuarios.png
+│   ├── cadastro mercadorias.JPG
+│   ├── cadastro-usuarios.png
+│   ├── consulta estoque.JPG
+│   ├── editar produto.JPG
+│   ├── entrada.JPG
+│   ├── historico movimentos.JPG
+│   ├── login.png
+│   ├── menu-principal.png
+│   ├── permissoes-usuarios.png
+│   └── saida.JPG
 │
 ├── README.md
 └── .gitignore
@@ -300,27 +301,50 @@ Responsável pela rotina automatizada de cópia e retenção dos arquivos de bac
 
 ### 🔐 Login
 
-![Login](imagens/login.JPG)
+![Login](imagens/login.png)
 
 Tela utilizada para autenticação e acesso ao sistema.
 
+**Credenciais de demonstração:**
+
+| Campo      | Valor   |
+| ---------- | ------- |
+| 👤 Usuário | `Admin` |
+| 🔑 Senha   | `123`   |
+
+---
+
 ### 🏠 Menu Principal
 
-![Menu Principal](imagens/menu.JPG)
+![Menu Principal](imagens/menu-principal.png)
 
 Tela inicial do sistema, apresentando o usuário logado e informações relacionadas ao último acesso.
 
-### 👥 Gerenciamento de Usuários
+---
 
-![Usuários](imagens/usuarios.JPG)
+### 👥 Cadastro de Usuários
+
+![Cadastro de Usuários](imagens/cadastro-usuarios.png)
 
 Tela destinada ao cadastro e gerenciamento dos usuários do sistema.
 
-### ✏️ Alteração de Usuário
+---
 
-![Alterar Usuário](imagens/alterar%20usuario.JPG)
+### ✏️ Alteração de Usuários
+
+![Alteração de Usuários](imagens/alteracao-usuarios.png)
 
 Permite localizar e alterar informações dos usuários cadastrados.
+
+---
+
+### 🔑 Permissões de Usuários
+
+![Permissões de Usuários](imagens/permissoes-usuarios.png)
+
+Tela destinada à configuração das permissões de acesso dos usuários às funcionalidades do sistema.
+
+---
 
 ### 📦 Cadastro de Mercadorias
 
@@ -328,11 +352,15 @@ Permite localizar e alterar informações dos usuários cadastrados.
 
 Tela utilizada para cadastrar e gerenciar os produtos.
 
+---
+
 ### ✏️ Editar Produto
 
 ![Editar Produto](imagens/editar%20produto.JPG)
 
 Permite localizar e alterar informações dos produtos cadastrados.
+
+---
 
 ### 📊 Consulta de Estoque
 
@@ -340,11 +368,15 @@ Permite localizar e alterar informações dos produtos cadastrados.
 
 Tela utilizada para consultar as quantidades disponíveis em estoque.
 
+---
+
 ### 📥 Entrada de Estoque
 
 ![Entrada de Estoque](imagens/entrada.JPG)
 
 Permite registrar a entrada de produtos e atualizar o estoque.
+
+---
 
 ### 📤 Saída de Estoque
 
@@ -352,11 +384,15 @@ Permite registrar a entrada de produtos e atualizar o estoque.
 
 Permite registrar a saída de produtos e atualizar os respectivos saldos.
 
+---
+
 ### 🔧 Ajuste de Estoque
 
 ![Ajuste de Estoque](imagens/acerto%20de%20estoque.JPG)
 
 Permite realizar ajustes nas quantidades registradas no sistema.
+
+---
 
 ### 📋 Histórico de Movimentações
 
@@ -386,18 +422,16 @@ Caso o Excel solicite autorização, habilite as **macros/conteúdo** para permi
 
 ### 5️⃣ Realizar o Login
 
-Utilize as credenciais de demonstração abaixo:
+Utilize as credenciais de demonstração:
 
-| Campo          | Credencial |
-| -------------- | ---------- |
-| 👤 **Usuário** | `Admin`    |
-| 🔑 **Senha**   | `123`      |
-
-> **Credenciais de demonstração:** o usuário `Admin` é disponibilizado para facilitar a avaliação e testes do projeto.
+```text
+Usuário: Admin
+Senha:   123
+```
 
 ### 6️⃣ Utilizar o Sistema
 
-Após o login, utilize o Menu Principal para acessar as funcionalidades disponíveis conforme as permissões do usuário.
+Após o login, utilize o Menu Principal para acessar as funcionalidades disponíveis conforme as permissões configuradas para o usuário.
 
 > **Observação:** o sistema foi desenvolvido em VBA e requer o Microsoft Excel para Windows com suporte a macros habilitado.
 
@@ -451,7 +485,6 @@ Algumas possibilidades de evolução seriam:
 * 📊 Criação de dashboards gerenciais.
 * 📑 Ampliação dos relatórios.
 * 🔔 Implementação de alertas de estoque mínimo.
-* 📦 Melhorias no controle de fornecedores.
 * 📈 Inclusão de novos indicadores de movimentação.
 * 🗄️ Migração dos dados para um banco de dados externo.
 * 🔌 Integração com outras aplicações ou sistemas.
