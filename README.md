@@ -52,8 +52,6 @@ Principais recursos:
 * Exibição do usuário logado no Menu Principal.
 * Registro e exibição do último acesso do usuário.
 
----
-
 ### 👥 Gerenciamento de Usuários
 
 O sistema permite administrar os usuários cadastrados na aplicação.
@@ -66,15 +64,11 @@ Principais operações:
 * Gerenciamento das informações dos usuários.
 * Definição de permissões de acesso.
 
----
-
 ### 🔑 Controle de Permissões
 
 O sistema possui controle de permissões para organizar o acesso às funcionalidades disponíveis.
 
 As permissões permitem definir quais recursos podem ser utilizados por cada usuário, proporcionando maior controle sobre as operações do sistema.
-
----
 
 ### 📦 Cadastro de Produtos
 
@@ -90,8 +84,6 @@ Principais operações:
 * Geração automática de códigos.
 * Consulta das informações cadastradas.
 
----
-
 ### 📊 Controle de Estoque
 
 Permite acompanhar as quantidades disponíveis dos produtos e manter o controle dos saldos de estoque.
@@ -103,25 +95,17 @@ O sistema possibilita:
 * Atualização automática dos saldos.
 * Acompanhamento das movimentações.
 
----
-
 ### 📥 Entrada de Estoque
 
 Permite registrar entradas de produtos no estoque, atualizando automaticamente as quantidades disponíveis.
-
----
 
 ### 📤 Saída de Estoque
 
 Permite registrar saídas de produtos e atualizar os respectivos saldos.
 
----
-
 ### 🔧 Ajuste de Estoque
 
 Permite realizar ajustes quando é necessário corrigir a quantidade registrada no sistema.
-
----
 
 ### 📋 Histórico de Movimentações
 
@@ -132,8 +116,6 @@ O sistema mantém o registro das movimentações realizadas, permitindo acompanh
 * Ajustes.
 
 As movimentações contribuem para a rastreabilidade das alterações realizadas no estoque.
-
----
 
 ### 💾 Backup Automático
 
@@ -223,8 +205,6 @@ sistema-controle-estoque-excel-vba/
 ├── README.md
 └── .gitignore
 ```
-
-> Os nomes dos arquivos de imagem podem ser ajustados conforme os arquivos disponíveis na pasta `imagens` do repositório.
 
 ---
 
@@ -405,7 +385,14 @@ Caso o Excel solicite autorização, habilite as **macros/conteúdo** para permi
 
 ### 5️⃣ Realizar o Login
 
-Após a abertura do sistema, utilize um usuário cadastrado para acessar o Menu Principal.
+Utilize as credenciais de demonstração abaixo:
+
+| Campo          | Credencial |
+| -------------- | ---------- |
+| 👤 **Usuário** | `Admin`    |
+| 🔑 **Senha**   | `123`      |
+
+> **Credenciais de demonstração:** o usuário `Admin` é disponibilizado para facilitar a avaliação e testes do projeto.
 
 ### 6️⃣ Utilizar o Sistema
 
