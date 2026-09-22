@@ -1,6 +1,6 @@
 # 📦 Sistema de Controle de Estoque — Excel/VBA
 
-Sistema de controle de estoque desenvolvido em **Microsoft Excel e VBA**, permitindo **cadastrar produtos, controlar estoque, registrar entradas e saídas, realizar ajustes e acompanhar o histórico de movimentações**.
+Sistema de controle de estoque desenvolvido em **Microsoft Excel e VBA**, com recursos para **cadastro de produtos, controle de estoque, entradas, saídas, ajustes, histórico de movimentações, gerenciamento de usuários, controle de permissões e backup automático**.
 
 O projeto foi desenvolvido como parte do meu portfólio profissional, com foco na aplicação prática de conhecimentos em **VBA, automação de processos, gerenciamento de dados, desenvolvimento de sistemas e análise de processos**.
 
@@ -8,13 +8,13 @@ O projeto foi desenvolvido como parte do meu portfólio profissional, com foco n
 
 ## 📌 Sobre o Projeto
 
-O sistema simula o funcionamento de uma solução interna para gerenciamento de estoque, permitindo centralizar informações de produtos e controlar suas movimentações.
+O sistema simula o funcionamento de uma solução interna para **gerenciamento de estoque**, permitindo centralizar informações de produtos, controlar movimentações e organizar o acesso dos usuários.
 
-A aplicação permite controlar o fluxo de estoque:
+A aplicação permite controlar o fluxo:
 
-**Cadastro → Entrada → Estoque → Saída → Ajuste → Histórico**
+**Login → Menu Principal → Cadastro → Entrada → Estoque → Saída → Ajuste → Histórico**
 
-Além do controle das movimentações, o sistema possui **cadastros, consultas, geração automática de códigos e rotina de backup**, proporcionando maior organização e rastreabilidade das informações.
+Além do controle de estoque, o sistema possui **gerenciamento de usuários, controle de permissões, identificação do usuário logado, registro do último acesso, geração automática de códigos e rotina de backup**, proporcionando maior organização, segurança e rastreabilidade das informações.
 
 ---
 
@@ -27,6 +27,8 @@ O projeto foi desenvolvido com os seguintes objetivos:
 * 📦 Desenvolver um sistema para controle de produtos e estoque.
 * 🔄 Automatizar processos de entrada, saída e ajuste de estoque.
 * 🖥️ Desenvolver interfaces utilizando UserForms.
+* 🔐 Implementar autenticação e controle de acesso.
+* 👥 Desenvolver gerenciamento de usuários e permissões.
 * 🔎 Implementar consultas e organização das informações.
 * 📋 Registrar o histórico das movimentações.
 * 💾 Implementar rotina de backup automático.
@@ -37,17 +39,58 @@ O projeto foi desenvolvido com os seguintes objetivos:
 
 ## ⚙️ Funcionalidades
 
+### 🔐 Login e Controle de Acesso
+
+O sistema possui uma tela de login para autenticação dos usuários antes do acesso ao Menu Principal.
+
+Principais recursos:
+
+* Login de usuários cadastrados.
+* Validação das credenciais.
+* Identificação do usuário após o login.
+* Controle de acesso conforme as permissões configuradas.
+* Exibição do usuário logado no Menu Principal.
+* Registro e exibição do último acesso do usuário.
+
+---
+
+### 👥 Gerenciamento de Usuários
+
+O sistema permite administrar os usuários cadastrados na aplicação.
+
+Principais operações:
+
+* Cadastro de usuários.
+* Consulta de usuários.
+* Alteração de usuários.
+* Gerenciamento das informações dos usuários.
+* Definição de permissões de acesso.
+
+---
+
+### 🔑 Controle de Permissões
+
+O sistema possui controle de permissões para organizar o acesso às funcionalidades disponíveis.
+
+As permissões permitem definir quais recursos podem ser utilizados por cada usuário, proporcionando maior controle sobre as operações do sistema.
+
+---
+
 ### 📦 Cadastro de Produtos
 
 Permite realizar o cadastro e gerenciamento dos produtos do estoque.
 
-Principais informações e operações:
+Principais operações:
 
-* Cadastro de produtos
-* Edição de produtos
-* Cadastro de categorias
-* Geração automática de códigos
-* Consulta das informações cadastradas
+* Cadastro de produtos.
+* Edição de produtos.
+* Cadastro de categorias.
+* Cadastro de marcas.
+* Cadastro de fornecedores.
+* Geração automática de códigos.
+* Consulta das informações cadastradas.
+
+---
 
 ### 📊 Controle de Estoque
 
@@ -55,26 +98,42 @@ Permite acompanhar as quantidades disponíveis dos produtos e manter o controle 
 
 O sistema possibilita:
 
-* Consulta do estoque atual
-* Controle de estoque disponível
-* Atualização automática dos saldos
-* Acompanhamento das movimentações
+* Consulta do estoque atual.
+* Controle de estoque disponível.
+* Atualização automática dos saldos.
+* Acompanhamento das movimentações.
+
+---
 
 ### 📥 Entrada de Estoque
 
 Permite registrar entradas de produtos no estoque, atualizando automaticamente as quantidades disponíveis.
 
+---
+
 ### 📤 Saída de Estoque
 
 Permite registrar saídas de produtos e atualizar os respectivos saldos.
+
+---
 
 ### 🔧 Ajuste de Estoque
 
 Permite realizar ajustes quando é necessário corrigir a quantidade registrada no sistema.
 
+---
+
 ### 📋 Histórico de Movimentações
 
-O sistema mantém o registro das movimentações realizadas, permitindo acompanhar as operações de entrada, saída e ajustes.
+O sistema mantém o registro das movimentações realizadas, permitindo acompanhar as operações de:
+
+* Entradas.
+* Saídas.
+* Ajustes.
+
+As movimentações contribuem para a rastreabilidade das alterações realizadas no estoque.
+
+---
 
 ### 💾 Backup Automático
 
@@ -89,31 +148,35 @@ O sistema possui uma rotina automatizada de backup que:
 
 ## 💻 Tecnologias Utilizadas
 
-| Tecnologia                  | Utilização                                                    |
-| --------------------------- | ------------------------------------------------------------- |
-| 📗 **Microsoft Excel**      | Plataforma utilizada para desenvolvimento do sistema          |
-| 💻 **VBA**                  | Programação e automação das funcionalidades                   |
-| 🖥️ **UserForms**           | Desenvolvimento das interfaces gráficas                       |
-| 📊 **Tabelas estruturadas** | Organização e armazenamento dos dados                         |
-| ⚙️ **VBA**                  | Implementação das regras de negócio e processos automatizados |
-| 🌿 **Git**                  | Controle de versão                                            |
-| 🐙 **GitHub**               | Hospedagem e publicação do projeto                            |
+| Tecnologia                  | Utilização                                           |
+| --------------------------- | ---------------------------------------------------- |
+| 📗 **Microsoft Excel**      | Plataforma utilizada para desenvolvimento do sistema |
+| 💻 **VBA**                  | Programação, automação e regras de negócio           |
+| 🖥️ **UserForms**           | Desenvolvimento das interfaces gráficas              |
+| 📊 **Tabelas estruturadas** | Organização e armazenamento dos dados                |
+| 🔐 **Controle de acesso**   | Autenticação e gerenciamento de permissões           |
+| 💾 **Sistema de arquivos**  | Rotina de backup automático                          |
+| 🌿 **Git**                  | Controle de versão                                   |
+| 🐙 **GitHub**               | Hospedagem e publicação do projeto                   |
 
 ---
 
 ## 🗄️ Estrutura de Dados
 
-O sistema utiliza estruturas de dados dentro do próprio Excel para armazenar e organizar as informações relacionadas ao controle de estoque.
+O sistema utiliza estruturas de dados dentro do próprio Excel para armazenar e organizar as informações relacionadas ao controle de estoque e gerenciamento da aplicação.
 
 Entre as principais áreas estão:
 
 ```text
 Produtos
 Categorias
+Marcas
 Fornecedores
 Entradas
 Saídas
 Movimentos
+Usuários
+Permissões
 Estoque
 ```
 
@@ -121,14 +184,19 @@ As movimentações são utilizadas para manter o controle dos saldos de estoque 
 
 O sistema aplica regras de negócio em VBA para:
 
-* Cadastro de produtos
-* Consulta de informações
-* Registro de entradas
-* Registro de saídas
-* Ajustes de estoque
-* Atualização dos saldos
-* Registro das movimentações
-* Controle dos backups
+* Cadastro e gerenciamento de produtos.
+* Cadastro de categorias, marcas e fornecedores.
+* Cadastro e gerenciamento de usuários.
+* Controle de permissões.
+* Autenticação dos usuários.
+* Registro do último acesso.
+* Consulta de informações.
+* Registro de entradas.
+* Registro de saídas.
+* Ajustes de estoque.
+* Atualização dos saldos.
+* Registro das movimentações.
+* Controle dos backups.
 
 ---
 
@@ -141,6 +209,9 @@ sistema-controle-estoque-excel-vba/
 │
 ├── imagens/
 │   ├── menu.JPG
+│   ├── login.JPG
+│   ├── usuarios.JPG
+│   ├── alterar usuario.JPG
 │   ├── cadastro mercadorias.JPG
 │   ├── editar produto.JPG
 │   ├── consulta estoque.JPG
@@ -153,39 +224,55 @@ sistema-controle-estoque-excel-vba/
 └── .gitignore
 ```
 
-### 🧩 Organização do Sistema
+> Os nomes dos arquivos de imagem podem ser ajustados conforme os arquivos disponíveis na pasta `imagens` do repositório.
 
-O sistema é organizado em módulos responsáveis pelas diferentes áreas da aplicação, incluindo:
+---
 
-**Produtos**
+## 🧩 Organização do Sistema
+
+O sistema é organizado em módulos responsáveis pelas diferentes áreas da aplicação.
+
+### 📦 Produtos
 
 Responsável pelo cadastro, edição e gerenciamento dos produtos.
 
-**Categorias**
+### 🏷️ Categorias
 
-Responsável pelo cadastro e organização das categorias.
+Responsável pelo cadastro e organização das categorias dos produtos.
 
-**Entradas**
+### 🏭 Marcas
+
+Responsável pelo cadastro e organização das marcas utilizadas no sistema.
+
+### 🚚 Fornecedores
+
+Responsável pelo cadastro e gerenciamento dos fornecedores.
+
+### 🔐 Usuários
+
+Responsável pelo cadastro, consulta, alteração e gerenciamento dos usuários.
+
+### 🔑 Permissões
+
+Responsável pelo controle de acesso às funcionalidades do sistema.
+
+### 📥 Entradas
 
 Responsável pelo registro das entradas de produtos no estoque.
 
-**Saídas**
+### 📤 Saídas
 
 Responsável pelo registro das saídas e atualização dos saldos.
 
-**Movimentos**
+### 🔄 Movimentos
 
-Responsável pelo histórico das movimentações realizadas.
+Responsável pelo registro e histórico das movimentações realizadas.
 
-**Estoque**
+### 📊 Estoque
 
 Responsável pela consulta e controle dos saldos disponíveis.
 
-**Usuários**
-
-Estrutura destinada ao gerenciamento de usuários do sistema.
-
-**Backup**
+### 💾 Backup
 
 Responsável pela rotina automatizada de cópia e retenção dos arquivos de backup.
 
@@ -195,36 +282,64 @@ Responsável pela rotina automatizada de cópia e retenção dos arquivos de bac
 
 ```text
                   ┌─────────────────────┐
-                  │    MENU PRINCIPAL   │
+                  │       LOGIN         │
                   └──────────┬──────────┘
                              │
-        ┌────────────────────┼────────────────────┐
-        │                    │                    │
-        ▼                    ▼                    ▼
-    Produtos             Estoque            Movimentos
-        │                    │                    │
-        ▼                    ▼                    ▼
-   Cadastro             Entradas /             Histórico
-   e Edição               Saídas
-        │                    │
-        └────────────────────┼────────────────────┘
+                             ▼
+                  ┌─────────────────────┐
+                  │   MENU PRINCIPAL    │
+                  │ Usuário + Último    │
+                  │      Acesso         │
+                  └──────────┬──────────┘
+                             │
+          ┌──────────────────┼──────────────────┐
+          │                  │                  │
+          ▼                  ▼                  ▼
+      Produtos            Estoque           Usuários
+          │                  │                  │
+          ▼                  ▼                  ▼
+      Cadastro         Entradas /          Permissões
+      e Edição           Saídas                 │
+          │                  │                  │
+          └──────────────────┼──────────────────┘
                              │
                              ▼
                     Atualização do Estoque
                              │
                              ▼
-                         Backup
+                      Movimentações
+                             │
+                             ▼
+                           Backup
 ```
 
 ---
 
 ## 🖼️ Demonstração
 
+### 🔐 Login
+
+![Login](imagens/login.JPG)
+
+Tela utilizada para autenticação e acesso ao sistema.
+
 ### 🏠 Menu Principal
 
 ![Menu Principal](imagens/menu.JPG)
 
-Tela inicial utilizada para acessar as principais funcionalidades do sistema.
+Tela inicial do sistema, apresentando o usuário logado e informações relacionadas ao último acesso.
+
+### 👥 Gerenciamento de Usuários
+
+![Usuários](imagens/usuarios.JPG)
+
+Tela destinada ao cadastro e gerenciamento dos usuários do sistema.
+
+### ✏️ Alteração de Usuário
+
+![Alterar Usuário](imagens/alterar%20usuario.JPG)
+
+Permite localizar e alterar informações dos usuários cadastrados.
 
 ### 📦 Cadastro de Mercadorias
 
@@ -288,9 +403,13 @@ Abra o arquivo utilizando o **Microsoft Excel para Windows**.
 
 Caso o Excel solicite autorização, habilite as **macros/conteúdo** para permitir a execução do sistema.
 
-### 5️⃣ Utilizar o Sistema
+### 5️⃣ Realizar o Login
 
-Após a abertura, utilize o **Menu Principal** para acessar as funcionalidades disponíveis.
+Após a abertura do sistema, utilize um usuário cadastrado para acessar o Menu Principal.
+
+### 6️⃣ Utilizar o Sistema
+
+Após o login, utilize o Menu Principal para acessar as funcionalidades disponíveis conforme as permissões do usuário.
 
 > **Observação:** o sistema foi desenvolvido em VBA e requer o Microsoft Excel para Windows com suporte a macros habilitado.
 
@@ -316,8 +435,11 @@ Essa funcionalidade busca reduzir o risco de perda das informações armazenadas
 Este projeto demonstra conhecimentos práticos em:
 
 * 💻 VBA
-* 📊 Microsoft Excel
+* 📗 Microsoft Excel
 * 🖥️ Desenvolvimento de interfaces com UserForms
+* 🔐 Autenticação de usuários
+* 👥 Gerenciamento de usuários
+* 🔑 Controle de permissões
 * 🧩 Programação orientada a eventos
 * 📦 Regras de negócio
 * 📋 CRUD e gerenciamento de informações
@@ -334,20 +456,17 @@ Este projeto demonstra conhecimentos práticos em:
 
 ## 🔮 Possíveis Evoluções
 
-Como projeto de portfólio, o sistema foi desenvolvido de forma **enxuta e funcional**, mantendo o foco nas principais operações de controle de estoque.
+Como projeto de portfólio, o sistema foi desenvolvido de forma **enxuta e funcional**, mantendo o foco nas principais operações de controle de estoque e gerenciamento da aplicação.
 
 Algumas possibilidades de evolução seriam:
 
-* 🔐 Implementação completa de login e controle de permissões.
 * 📊 Criação de dashboards gerenciais.
 * 📑 Ampliação dos relatórios.
 * 🔔 Implementação de alertas de estoque mínimo.
 * 📦 Melhorias no controle de fornecedores.
-* 📈 Indicadores adicionais de movimentação.
+* 📈 Inclusão de novos indicadores de movimentação.
 * 🗄️ Migração dos dados para um banco de dados externo.
 * 🔌 Integração com outras aplicações ou sistemas.
-
-**Essas funcionalidades não fazem parte da versão atual.**
 
 ---
 
