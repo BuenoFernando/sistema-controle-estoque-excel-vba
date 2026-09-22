@@ -484,7 +484,6 @@ Algumas possibilidades de evolução seriam:
 
 * 📊 Criação de dashboards gerenciais.
 * 📑 Ampliação dos relatórios.
-* 🔔 Implementação de alertas de estoque mínimo.
 * 📈 Inclusão de novos indicadores de movimentação.
 * 🗄️ Migração dos dados para um banco de dados externo.
 * 🔌 Integração com outras aplicações ou sistemas.
