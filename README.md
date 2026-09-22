@@ -113,7 +113,6 @@ O sistema mantém o registro das movimentações realizadas, permitindo acompanh
 
 * Entradas.
 * Saídas.
-* Ajustes.
 
 As movimentações contribuem para a rastreabilidade das alterações realizadas no estoque.
 
